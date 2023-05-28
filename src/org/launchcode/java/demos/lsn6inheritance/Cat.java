@@ -1,5 +1,7 @@
 package org.launchcode.java.demos.lsn6inheritance;
 
+import org.launchcode.java.demos.lsn1datatypes.Message;
+
 public class Cat {
 
     private boolean tired = false;
@@ -49,6 +51,7 @@ public class Cat {
     public void sleep() {
         tired = false;
         hungry = true;
+
     }
 
     // Eating makes a cat not hungry

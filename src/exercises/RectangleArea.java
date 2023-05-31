@@ -15,7 +15,7 @@ public class RectangleArea {
         input.close();
         Integer area = width*length;
 
-        System.out.println("The Area of the rectangle is: " +area);
+        System.out.println("The Area of the rectangle is: " +area + " mm^2");
     }
 
 }

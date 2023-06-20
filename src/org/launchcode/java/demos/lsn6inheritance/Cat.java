@@ -68,4 +68,7 @@ public class Cat {
     public String noise () {
         return "Meeeeeeooooowww!";
     }
+    public Cat () {
+        weight = 13;
+    }
 }
